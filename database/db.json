@@ -1,0 +1,76 @@
+{
+  "tickets": [
+    {
+      "id": "9d527b12-e50d-4179-b5c7-1d4c6fa3f72f",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "61fee322-d695-4110-8338-e100e30ae9d8",
+      "title": "Problema 1",
+      "description": "Ocurrió un error en el sistema",
+      "status": "asignado",
+      "priority": "medium",
+      "assignedUser": "Hector Perez"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "b22a49a7-9038-4ac2-95cc-1ecef9283951",
+      "type": "email",
+      "message": "Nuevo ticket creado: undefined",
+      "status": "pending",
+      "ticketId": "9d527b12-e50d-4179-b5c7-1d4c6fa3f72f"
+    },
+    {
+      "id": "a736f57d-38c0-4f35-b4e7-920a64cae334",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "61fee322-d695-4110-8338-e100e30ae9d8"
+    },
+    {
+      "id": "895b113a-7e10-46ae-b655-735a86185e4d",
+      "type": "email",
+      "message": "El ticket 61fee322-d695-4110-8338-e100e30ae9d8 fue asignado a Tu nombre",
+      "status": "pending",
+      "ticketId": "61fee322-d695-4110-8338-e100e30ae9d8"
+    },
+    {
+      "id": "6dcc12ec-6c26-4b08-9075-1dd747947cf4",
+      "type": "email",
+      "message": "El ticket 61fee322-d695-4110-8338-e100e30ae9d8 fue asignado a Hector Perez",
+      "status": "pending",
+      "ticketId": "61fee322-d695-4110-8338-e100e30ae9d8"
+    },
+    {
+      "id": "f35a2e60-cf21-4035-81d1-bdd215ab043d",
+      "type": "push",
+      "message": "El ticket 61fee322-d695-4110-8338-e100e30ae9d8 cambió a asignado",
+      "status": "pending",
+      "ticketId": "61fee322-d695-4110-8338-e100e30ae9d8"
+    },
+    {
+      "id": "c187f460-326c-4999-a4e8-4cfddd660cf7",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "fe9e9122-85e0-44c5-81b6-94ae1f877c2c"
+    },
+    {
+      "id": "a3f66d48-b84e-43f9-a1fa-d57e1de7501c",
+      "type": "email",
+      "message": "El ticket fe9e9122-85e0-44c5-81b6-94ae1f877c2c fue asignado a Hector Perez",
+      "status": "pending",
+      "ticketId": "fe9e9122-85e0-44c5-81b6-94ae1f877c2c"
+    },
+    {
+      "id": "7ba82c28-b9d2-4ede-a1c6-340653e0f368",
+      "type": "push",
+      "message": "El ticket fe9e9122-85e0-44c5-81b6-94ae1f877c2c cambió a asignado",
+      "status": "pending",
+      "ticketId": "fe9e9122-85e0-44c5-81b6-94ae1f877c2c"
+    }
+  ]
+}
